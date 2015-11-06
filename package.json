@@ -14,7 +14,7 @@
   "version": "1.0.5",
   "description": "add canonical link to gitbook",
   "engines": {
-    "gitbook": ">=2.0.0"
+    "gitbook": "*"
   },
   "main": "index.js",
   "files": [
