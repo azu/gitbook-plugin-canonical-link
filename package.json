@@ -28,13 +28,5 @@
     "gitbook",
     "gitbook-plugin",
     "header"
-  ],
-  "gitbook": {
-    "properties": {
-      "canonicalURL": {
-        "type": "string",
-        "description": "URL of canonical Link"
-      }
-    }
-  }
+  ]
 }
