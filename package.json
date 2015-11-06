@@ -11,7 +11,7 @@
   "bugs": {
     "url": "https://github.com/azu/gitbook-plugin-canonical-link/issues"
   },
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "add canonical link to gitbook",
   "engines": {
     "gitbook": ">=2.0.0"
