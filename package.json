@@ -11,7 +11,7 @@
   "bugs": {
     "url": "https://github.com/azu/gitbook-plugin-canonical-link/issues"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "add canonical link to gitbook",
   "main": "index.js",
   "files": [
@@ -20,8 +20,7 @@
   "directories": {
     "test": "test"
   },
-  "scripts": {
-  },
+  "scripts": {},
   "keywords": [
     "gitbook",
     "plugin",
