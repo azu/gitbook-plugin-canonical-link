@@ -1,0 +1,39 @@
+{
+  "name": "gitbook-plugin-canonical-link",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azu/gitbook-plugin-canonical-link.git"
+  },
+  "author": "azu",
+  "email": "azuciao@gmail.com",
+  "homepage": "https://github.com/azu/gitbook-plugin-canonical-link",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/azu/gitbook-plugin-canonical-link/issues"
+  },
+  "version": "1.0.0",
+  "description": "add canonical link to gitbook",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gitbook",
+    "plugin",
+    "header"
+  ],
+  "gitbook": {
+    "properties": {
+      "canonicalURL": {
+        "type": "string",
+        "description": "URL of canonical Link"
+      }
+    }
+  }
+}
