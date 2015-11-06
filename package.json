@@ -26,7 +26,7 @@
   "scripts": {},
   "keywords": [
     "gitbook",
-    "plugin",
+    "gitbook-plugin",
     "header"
   ],
   "gitbook": {
