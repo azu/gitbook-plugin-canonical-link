@@ -16,7 +16,6 @@
   "engines": {
     "gitbook": "*"
   },
-  "main": "index.js",
   "files": [
     "index.js"
   ],
