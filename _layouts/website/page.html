@@ -1,0 +1,6 @@
+{% extends template.self %}
+
+{% block head %}
+    {{ super() }}
+    <link rel="canonical" href="{{ config.pluginsConfig['canonical-link'].canonicalURL }}">
+{% endblock %}

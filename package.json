@@ -16,7 +16,6 @@
   "engines": {
     "gitbook": "*"
   },
-  "main": "index.js",
   "files": [
     "index.js"
   ],
@@ -28,5 +27,14 @@
     "gitbook",
     "gitbook-plugin",
     "header"
-  ]
+  ],
+  "gitbook": {
+    "properties": {
+      "canonicalURL": {
+        "type": "string",
+        "description": "Canonical URL",
+        "required": true
+      }
+    }
+  }
 }
