@@ -2,5 +2,5 @@
 
 {% block head %}
     {{ super() }}
-    <link rel="canonical" href="{{ config.pluginsConfig['canonical-link'].baseURL }}/{{ file.path }}">
+    <link rel="canonical" href="{{ config.pluginsConfig['canonical-link'].baseURL }}/{{ file.path | replace('index.html.md','') | replace('README.md','') | replace('readme.md','') }}">
 {% endblock %}
