@@ -1,6 +1,6 @@
 # gitbook-plugin-canonical-link
 
-Add `<link rel="canonical" href=this.options.canonicalURL>` to `<head>`
+Add `<link rel="canonical" href={{ config.pluginsConfig['canonical-link'].baseURL }}/{{ file.path }}>` to `<head>`
 
 ## Installation
 
@@ -17,7 +17,7 @@ add to `book.json`
   ],
   "pluginsConfig": {
     "canonical-link": {
-      "canonicalURL": "<URL>"
+      "baseURL": "http://example.com"
     }
   }
 }

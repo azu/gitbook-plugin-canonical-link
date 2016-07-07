@@ -30,9 +30,9 @@
   ],
   "gitbook": {
     "properties": {
-      "canonicalURL": {
+      "baseURL": {
         "type": "string",
-        "description": "Canonical URL",
+        "description": "Base URL",
         "required": true
       }
     }
